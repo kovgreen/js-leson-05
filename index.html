@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX/FETCH</title>
+</head>
+<body>
+    
+    <div class="timestamp"></div>
+    
+    <section>
+        <h1>HTML sample</h1>
+        <div class="html-placeholder"></div>
+        <button class="ajax-html">Load Client Data with AJAX</button>
+        <button class="fetch-html">Load Client Data with Fetch</button>
+    </section>
+    
+    <section>
+        <h1>JSON sample</h1>
+        <div>
+            <p>Client name: <span class="client-name"></span></p>
+            <p>Account balance: <span class="account-balance"></span></p>
+        </div>
+        <button class="ajax-json">Load Client Data with AJAX</button>
+        <button class="fetch-json">Load Client Data with Fetch</button>
+    </section>
+    
+    <section>
+        <h1>Form Sample</h1>
+        <form class="login-form">
+            <label>
+                Name: <input type="text" name="name">
+            </label>
+            <br>
+            <label>
+                Password: <input type="password" name="password">
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </section>
+    
+    <section class="weather">
+        <h1>Get Weather</h1>
+        <label>
+            City: <input type="text" name="city">
+        </label>
+        <br>
+        <label>
+            Temp: <input type="text" name="temp" readonly>
+        </label>
+        <button class="get-temp">Get Temp</button>
+    </section>
+    
+    <section>
+        <h1>Currency converter</h1>
+        <form class="converter">
+            <label>
+                From: <input type="text" name="curr-from">
+            </label>
+            <br>
+            <label>
+                To: <input type="text" name="curr-to">
+            </label>
+            <br>
+            <label>
+                Amount: <input type="number" name="curr-amount">
+            </label>
+            <br>
+            <label>
+                Converted: <output type="text" name="curr-converted"></output>
+            </label>
+            <br>
+            <button class="curr-convert">Convert</button>
+        </form>
+    </section>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
